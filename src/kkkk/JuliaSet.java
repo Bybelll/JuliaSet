@@ -2,9 +2,8 @@ package kkkk;
 
 import java.io.IOException;
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.InputStreamReader;
-import javax.imageio.ImageIO;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 
 import java.awt.Color;
@@ -89,6 +88,8 @@ public class JuliaSet
 			f.setSize((int)WIDTH,(int) HEIGHT);
 			f.repaint();
 			f.setVisible(true);
+			JButton button = new JButton("ok");
+			f.add(button);
 		
 	}
 }
